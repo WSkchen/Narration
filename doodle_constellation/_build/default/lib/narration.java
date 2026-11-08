@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class narration(){
     HashMap<String, String> dataset = new HashMap();
-
+    //note Constellations will primarily be focusing on the European aspect, cause I'm fucking lazy
     public narration(){
         File file = new File("Constellations.txt");
         try(Scanner myReader = new Scanner(file)){
